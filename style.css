@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -15,12 +16,14 @@ body {
   display: grid;
   place-content: center;
   overflow: hidden;
+  overflow-anchor: none;
 }
 
 h1 {
   font-size: 20rem;
   color: white;
   font-family: Quicksand;
+  font-weight: 600;
   letter-spacing: -1rem;
   position: absolute;
   left: 50%;
@@ -31,7 +34,7 @@ h1 {
 
 .pizza-cols-row {
   transform: rotate(30deg);
-  height: 100dvh;
+  height: 100vh;
   display: flex;
   gap: 5rem;
   justify-content: space-between;
